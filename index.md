@@ -80,7 +80,7 @@ Hi! My name is Salma Zaghloul
     <a href="{{site.baseurl}}/cs-pathway" class="btn" style="background-color: var(--orange);">
        CS Pathway
     </a>
-    <a href="{{site.baseurl}}/sprint1/challenge/csh/" class="btn" style="background-color: var(--green);">
+    <a href="{{site.baseurl}}/sprint1/challenge/csh/" class="btn" style="background-color: var(--warn);">
        Ground 0
     </a>
 </div>
