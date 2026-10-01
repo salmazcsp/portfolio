@@ -5,7 +5,7 @@ hide: true
 show_reading_time: false
 ---
 
-Hi! My name is [Your Full Name]
+Hi! My name is Salma
 
 ### Development Environment
 
@@ -29,6 +29,9 @@ Hi! My name is [Your Full Name]
     </a>
     <a class="ocs__btn" href="https://github.com/Open-Coding-Society/pages/blob/main/_sass/open-coding/mixins/_container.scss">
         Container Mixins
+    </a>
+    <a class="ocs__btn" href="{{site.baseurl}}/CSP/hw">
+        CSP Lessons
     </a>
 </div>
 
