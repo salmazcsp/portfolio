@@ -27,11 +27,11 @@ Each fundamental lesson I have completed so far.
     <a class="ocs__btn alert-red iridescent" href="{{site.baseurl}}/python/libraries">
         Libraries
     </a>
-    <a class="ocs__btn alert-red iridescent" href="{{site.baseurl}}/python/nested-conditionals/student-life">
+    <a class="ocs__btn iridescent" href="{{site.baseurl}}/python/nested-conditionals/student-life">
         Nested Conditionals
     </a>
-    <a class="ocs__btn alert-red iridescent" href="{{site.baseurl}}/python/libraries">
-        Libraries
+    <a class="ocs__btn alert-green iridescent" href="{{site.baseurl}}/python/variables">
+        Variables
     </a>
 </div>
 
@@ -46,8 +46,8 @@ Each fundamental lesson I have completed so far.
     <a class="ocs__btn alert-green iridescent" href="{{site.baseurl}}/sass/typography">
         Typography
     </a>
-    <a class="ocs__btn alert-yellow iridescent" href="{{site.baseurl}}/gamerunner">
-        Gamerunner
+    <a class="ocs__btn alert-yellow iridescent" href="{{site.baseurl}}/sass/grids/">
+        Grids
     </a>
     <a class="ocs__btn alert-red iridescent" href="{{site.baseurl}}/network/stack">
         Networking
