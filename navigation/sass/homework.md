@@ -33,7 +33,18 @@ Each fundamental lesson I have completed so far.
     <a class="ocs__btn alert-green iridescent" href="{{site.baseurl}}/python/variables">
         Variables
     </a>
-</div>
+    <a class="ocs__btn alert-yellow iridescent" href="{{site.baseurl}}/python/lists/2027">
+        Lists
+    </a>
+    <a class="ocs__btn alert-red iridescent" href="{{site.baseurl}}/python/calling-procedures/2027">
+        Calling Procedures
+    </a>
+    <a class="ocs__btn iridescent" href="{{site.baseurl}}/python/conditionals/py">
+        Conditionals
+    </a>
+    <a class="ocs__btn iridescent" href="{{site.baseurl}}/python/developing-algorithms/2026">
+        Developing Algorithms
+    </a>
 
 ---
 
@@ -49,7 +60,7 @@ Each fundamental lesson I have completed so far.
     <a class="ocs__btn alert-yellow iridescent" href="{{site.baseurl}}/sass/grids/">
         Grids
     </a>
-    <a class="ocs__btn alert-red iridescent" href="{{site.baseurl}}/network/stack">
-        Networking
+    <a class="ocs__btn alert-red iridescent" href="{{site.baseurl}}/sass/inputs/">
+        Inputs
     </a>
 </div>
