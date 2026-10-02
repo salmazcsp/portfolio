@@ -42,8 +42,8 @@ Each fundamental lesson I have completed so far.
     <a class="ocs__btn iridescent" href="{{site.baseurl}}/python/conditionals/py">
         Conditionals
     </a>
-    <a class="ocs__btn iridescent" href="{{site.baseurl}}/python/developing-algorithms/2026">
-        Developing Algorithms
+    <a class="ocs__btn iridescent" href="{{site.baseurl}}/python/data-abstractions/2027">
+        Data Abstractions
     </a>
 
 ---
