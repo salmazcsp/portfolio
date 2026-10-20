@@ -192,3 +192,96 @@ Skill 1.D: Design and evaluate computational solutions for a purpose
 
 -
 
+A snack bar has a frequent customer program in which every 10th purchase is free. Customers are enrolled in the program when they make their first purchase. A programmer is writing a program to implement the frequent customer program. In one code segment, cost is set to 0for every 10th purchase by a given customer. The programmer will use the procedure One word, Get Count, open parenthesis, one word, customer I D, close parenthesis , which returns the total number of purchases a customer has made since enrolling in the frequent customer program, including his or her first purchase.
+Which of the following code segments will set cost to 0 for every 10th purchase a customer makes after enrolling in the frequent customer program?
+A
+The program consists of 5 lines. Begin program Line 1: count, left arrow, one word Get Count, open parenthesis, one word customer I D, close parenthesis Line 2: IF, open parenthesis, count divided by 10 equals 0, close parenthesis Line 3: open brace Line 4: cost, left arrow, 0 Line 5: close brace End program.
+B
+The program consists of 5 lines. Begin program Line 1: count, left arrow, one word Get Count, open parenthesis, one word customer  I D, close parenthesis Line 2: IF, open parenthesis, NOT, open parenthesis, count divided by 10 equals 0, close parenthesis, close parenthesis Line 3: open brace Line 4: cost, left arrow, 0 Line 5: close brace End program.
+C
+The program consists of 5 lines. Begin program Line 1: count, left arrow, one word Get Count, open parenthesis, one word customer I D, close parenthesis Line 2: IF, open parenthesis, count, MOD, 10 equals 0, close parenthesis Line 3: open brace Line 4: cost, left arrow, 0 Line 5: close brace End program.
+D
+The program consists of 5 lines. Begin program Line 1: count, left arrow, one word Get Count, open parenthesis, one word customer I D, close parenthesis Line 2: IF, open parenthesis, NOT, open parenthesis, count, MOD, 10 equals 0, close parenthesis, close parenthesis Line 3: open brace Line 4: cost, left arrow, 0 Line 5: close brace End program.
+Answer D
+This option is incorrect. The expression NOT, open parenthesis, count, MOD, 10 equals 0 does not evaluate to true when count is a multiple of 1 0, so this code segment does not set cost to 0 appropriately.
+
+Skill 4.B: Determine the result of code segments.
+
+-
+
+Which of the following explains a benefit of using open standards and protocols for Internet communication?
+A
+Open standards and protocols allow different manufacturers and developers to build hardware and software that can communicate with hardware and software on the rest of the network.
+B
+Open standards and protocols provide ways for users to eliminate the latency of messages they send on the Internet.
+C
+Open standards and protocols allow users to freely share or reuse material found on the Internet for noncommercial purposes.
+D
+Open standards and protocols prevent developers from releasing software that contains errors.
+Answer C
+This option is incorrect. Open standards and protocols cannot be used to allow copyrighted materials to be shared freely.
+
+Skill 5.A: Explain how computing systems work.
+
+-
+
+Grades in a computer science course are based on total points earned on a midterm exam and a final exam. The teacher provides a way for students to improve their course grades if they receive high scores on the final exam: if a student’s final exam score is greater than the student’s midterm exam score, the final exam score replaces the midterm exam score in the calculation of total points.
+
+The table below shows two students’ scores on the midterm and final exams and the calculated total points each student earns.
+
+A table is shown with 4 columns and 3 rows. The first row of the table contains the column headers, from left to right, Student Name, Midterm Exam Score, Final Exam Score, Total Points Calculation. The table is as follows: Khalil, 90, 80, 90 plus 80 equals 170 Josefina, 70, 90, 90 plus 90 equals 180
+
+Khalil does better on the midterm exam than on the final exam, so his original midterm and final exam scores are added to compute his total points.
+Josefina does better on the final exam than on the midterm exam, so her final exam score replaces her midterm exam score in the total points calculation.
+A programmer is writing a procedure to calculate a student’s final grade in the course using the score replacement policy described. The student’s exam scores are stored in the variables One word, midterm Exam and One word, final Exam. The procedure Max, open parenthesis, a comma b returns the larger of a and b.
+
+Which of the following could be used in the procedure to calculate a student’s total points earned in the course and store the result in the variable One word, adjusted Total ?
+A
+One word, adjusted Total, left arrow, Max, open parenthesis, one word midterm Exam, comma, one word final Exam, close parenthesis
+B
+One word, adjusted Total, left arrow, Max, open parenthesis, one word midterm Exam, comma, one word final Exam, close parenthesis, plus one word final Exam
+C
+One word, adjusted Total, left arrow, Max, open parenthesis, one word midterm Exam, comma, one word final Exam, close parenthesis, plus one word midterm Exam
+D
+One word, adjusted Total, left arrow, 2 times Max, open parenthesis, one word midterm Exam, comma, one word final Exam, close parenthesis
+Answer A
+This option is incorrect. This expression assigns only one score to One word, adjusted Total.
+
+Skill 2.B: Implement and apply an algorithm.
+
+-
+
+Internet protocol version 4 (IPv4) represents each IP address as a 32-bit binary number. Internet protocol version 6 (IPv6) represents each IP address as a 128-bit binary number.
+Which of the following best describes the result of using 128-bit addresses instead of 32-bit addresses?
+A
+4 times as many addresses are available.
+B
+96 times as many addresses are available.
+C
+2 to the fourth power times as many addresses are available.
+D
+2 raised to the ninety sixth power times as many addresses are available.
+Answer A
+This option is incorrect. IPv6 has 2 raised to the ninety sixth power times as many possible addresses as IPv4.
+
+Skill 3.C: Explain how abstraction manages complexity.
+
+-
+
+An online retailer uses an algorithm to sort a list of n items by price. The table below shows the approximate number of steps the algorithm takes to sort lists of different sizes.
+
+A table is shown with 2 columns and 7 rows. The first row of the table contains the column headers, from left to right, Number of Items, Number of Steps. The table is as follows: 10, 100 20, 400 thirty, 900 forty, 1,600 fifty, 2,500 sixty, 3,600
+
+Based on the values in the table, which of the following best characterizes the algorithm for very large values of n ?
+A
+The algorithm runs in reasonable time.
+B
+The algorithm runs, but not in reasonable time.
+C
+The algorithm attempts to solve an undecidable problem.
+D
+The algorithm attempts to find an approximate solution whenever it fails to find an exact solution.
+Answer B
+This option is incorrect. The number of steps of the algorithm is a polynomial, so the algorithm runs in reasonable time.
+
+Skill 1.D: Evaluate solution options.
