@@ -126,162 +126,126 @@ We briefly touched on APIs in class and how they work in the backend. My underst
 
 ---
 
-### Practice Multiple Choice Quiz
+# Practice Multiple Choice Quiz — Retrospective Review
 
-Overall, I think the MCQ went quite well for me not using AI or rushing through any questions. I'm proud of my score; a 57/66. That's not bad. But what topics did I mess up on? Get wrong?
+I scored **57/66** on the practice multiple-choice quiz, meaning I got **9 questions wrong** overall. I am proud of this score because I completed the quiz without using AI and without rushing through the questions. However, reviewing the results shows that there are several areas I need to improve.
 
-Which of the following best describes the role of the Internet Engineering Task Force (IETF) ?
-A
-Developing standards and protocols for Internet communication
-B
-Preventing copyrighted materials from being illegally distributed online
-C
-Preventing malicious software from being distributed online
-D
-Verifying the ownership of encrypted keys used in secured messages
+My biggest weakness was **Skill 1.D: Design and evaluate computational solutions for a purpose**, where I missed **4 questions**. The other missed questions were spread across Skills 5.A, 2.B, 4.B, and 3.C.
 
-Skill 5.A: Explain how computing systems work.
+## Skill 1.D — Design and Evaluate Computational Solutions for a Purpose
+**Questions missed: 4**
 
--
+This was my weakest skill on the quiz. Missing 4 questions in the same skill suggests that I need to work on more than just one specific concept. I may understand individual programming concepts but struggle when I have to decide whether a computational solution is the **best or most appropriate solution for a particular purpose**.
 
-The figures represent different ways of configuring a network of physically linked computers labeled P, Q, R, and S. A line between two computers indicates that the computers can communicate directly with each other.
-In which configuration is it NOT possible to have redundant routing between computers P and S?
+Questions involving this skill can require me to evaluate things such as efficiency, functionality, usability, limitations, and whether a solution actually meets the requirements of a problem. I may have focused too much on whether an answer *could* work rather than whether it was the **best solution for the stated purpose**.
 
-Skill 1.D: Design and evaluate computational solutions for a purpose
+### What I need to improve
+I should pay closer attention to the exact requirements of a problem before choosing an answer. Instead of immediately looking for an answer that seems technically correct, I should ask:
 
--
+- What is the purpose of the program or solution?
+- What requirements does it need to satisfy?
+- Which solution is the most efficient or appropriate?
+- Are there limitations or trade-offs?
+- Does the solution actually solve the problem described?
 
-The question below uses a robot in a grid of squares. The robot is represented as a triangle, which is initially in the bottom right square of the grid and facing toward the top of the grid.
+### Retrospective
+The main lesson from these mistakes is that I need to think more about the **design and evaluation of a solution**, rather than just whether I understand the code. I should practice comparing multiple possible solutions and explaining why one is better than another.
 
-The figure shows a grid of squares with 5 columns and 5 rows. The bottom right square of the grid contains an upward-facing triangle, representing a robot. The top left square of the grid is shaded gray. All other squares are white.
+**Action plan:** I will practice questions where I have to evaluate algorithms, programs, or computational solutions based on their purpose and requirements. I will also make sure to justify *why* an answer is the best solution rather than simply identifying an answer that works.
 
-The following programs are each intended to move the robot to the gray square. Program II uses the procedure One word, Goal Reached, which returns true if the robot is in the gray square and returns 
+---
 
-false otherwise.
-Program I: The block code consists of 5 lines. Begin block Line 1: REPEAT 4 TIMES Begin block Line 2, indented 1 tab: MOVE underscore FORWARD Line 3, indented 1 tab: ROTATE underscore LEFT Line 4, indented 1 tab: MOVE underscore FORWARD Line 5, indented 1 tab: ROTATE underscore RIGHT End block End blockProgram II: The block code consists of 5 lines. Begin block Line 1: REPEAT UNTIL, begin block, Goal Reached, 1 word with capital G and R, end block Begin block Line 2, indented 1 tab: IF, begin block, CAN underscore MOVE, begin block, forward, end block, end block Begin block Line 3, indented 2 tabs: MOVE underscore FORWARD End block Line 4, indented 1 tab: ELSE Begin block Line 5, indented 2 tabs: ROTATE underscore LEFT End block End block End block
+## Skill 5.A — Explain How Computing Systems Work
+**Questions missed: 2**
 
-Which of the following statements is true?
-A
-Program I correctly moves the robot to the gray square, but program II does not.
-B
-Program II correctly moves the robot to the gray square, but program I does not.
-C
-Both program I and program II correctly move the robot to the gray square.
-D
-Neither program I nor program II correctly moves the robot to the gray square.
+I missed 2 questions involving how computing systems work. This suggests that I may need to strengthen my understanding of what happens inside a computing system and how its different components interact.
 
-Skill 1.D: Design and evaluate computational solutions for a purpose
+These questions can involve concepts such as hardware, software, memory, storage, processing, networks, and how information moves through a computer system.
 
--
+### What I need to improve
+I should make sure I understand the **relationships between components**, rather than memorizing definitions individually. For example, I should be able to explain what happens when a program is executed and how the processor, memory, storage, and other components contribute.
 
-The two code segments below are each intended to display the average of the numbers in the list One word, num List. Assume that One word, num List contains more than one value.
+### Retrospective
+I may have recognized some of the terminology but not fully understood how the pieces work together. If a question changes the scenario, simply memorizing a definition may not be enough.
 
-Program I: The block code consists of 5 lines. Line 1: sum, left arrow, zero Begin block Line 2: FOR EACH num IN num List, 1 word with capital L Begin block Line 3, indented 1 tab: sum, left arrow, sum plus num Line 4, indented 1 tab: a v g, 1 word, left arrow, sum divided by LENGTH, begin block, num List, end block End block End block Line 5: DISPLAY, begin block, a v g, end blockProgram II: The block code consists of 5 lines. Line 1: sum, left arrow, zero Begin block Line 2: FOR EACH num IN num List, 1 word with capital L Begin block Line 3, indented 1 tab: sum, left arrow, sum plus num End block End block Line 4: a v g, 1 word, left arrow, sum divided by LENGTH, begin block, num List, end block Line 5: DISPLAY, begin block, a v g, end block
+**Action plan:** I will review the major components of computing systems and practice explaining what each component does and how they interact during different tasks.
 
-Which of the following best describes the two code segments?
-A
-Code segment I displays the correct average, but code segment II does not.
-B
-Code segment II displays the correct average, but code segment I does not.
-C
-Both code segments display the correct average, but code segment I requires more arithmetic operations than code segment II.
-D
-Both code segments display the correct average, but code segment II requires more arithmetic operations than code segment I.
+---
 
-Skill 1.D: Design and evaluate computational solutions for a purpose
+## Skill 2.B — Implement and Apply an Algorithm
+**Questions missed: 1**
 
--
+I missed 1 question involving implementing or applying an algorithm. This is a relatively small weakness compared with Skill 1.D, but it still shows that I should be more careful when following algorithmic steps.
 
-A snack bar has a frequent customer program in which every 10th purchase is free. Customers are enrolled in the program when they make their first purchase. A programmer is writing a program to implement the frequent customer program. In one code segment, cost is set to 0for every 10th purchase by a given customer. The programmer will use the procedure One word, Get Count, open parenthesis, one word, customer I D, close parenthesis , which returns the total number of purchases a customer has made since enrolling in the frequent customer program, including his or her first purchase.
-Which of the following code segments will set cost to 0 for every 10th purchase a customer makes after enrolling in the frequent customer program?
-A
-The program consists of 5 lines. Begin program Line 1: count, left arrow, one word Get Count, open parenthesis, one word customer I D, close parenthesis Line 2: IF, open parenthesis, count divided by 10 equals 0, close parenthesis Line 3: open brace Line 4: cost, left arrow, 0 Line 5: close brace End program.
-B
-The program consists of 5 lines. Begin program Line 1: count, left arrow, one word Get Count, open parenthesis, one word customer  I D, close parenthesis Line 2: IF, open parenthesis, NOT, open parenthesis, count divided by 10 equals 0, close parenthesis, close parenthesis Line 3: open brace Line 4: cost, left arrow, 0 Line 5: close brace End program.
-C
-The program consists of 5 lines. Begin program Line 1: count, left arrow, one word Get Count, open parenthesis, one word customer I D, close parenthesis Line 2: IF, open parenthesis, count, MOD, 10 equals 0, close parenthesis Line 3: open brace Line 4: cost, left arrow, 0 Line 5: close brace End program.
-D
-The program consists of 5 lines. Begin program Line 1: count, left arrow, one word Get Count, open parenthesis, one word customer I D, close parenthesis Line 2: IF, open parenthesis, NOT, open parenthesis, count, MOD, 10 equals 0, close parenthesis, close parenthesis Line 3: open brace Line 4: cost, left arrow, 0 Line 5: close brace End program.
-Answer D
-This option is incorrect. The expression NOT, open parenthesis, count, MOD, 10 equals 0 does not evaluate to true when count is a multiple of 1 0, so this code segment does not set cost to 0 appropriately.
+Questions in this area require me to understand how an algorithm works and correctly apply it to a problem or piece of code.
 
-Skill 4.B: Determine the result of code segments.
+### What I need to improve
+I should slow down when tracing an algorithm and make sure I follow **every step in the correct order**. If variables change throughout an algorithm, I should keep track of their values rather than trying to mentally skip steps.
 
--
+### Retrospective
+This mistake may have been caused by overlooking a step or assuming what the algorithm would do instead of actually tracing it.
 
-Which of the following explains a benefit of using open standards and protocols for Internet communication?
-A
-Open standards and protocols allow different manufacturers and developers to build hardware and software that can communicate with hardware and software on the rest of the network.
-B
-Open standards and protocols provide ways for users to eliminate the latency of messages they send on the Internet.
-C
-Open standards and protocols allow users to freely share or reuse material found on the Internet for noncommercial purposes.
-D
-Open standards and protocols prevent developers from releasing software that contains errors.
-Answer C
-This option is incorrect. Open standards and protocols cannot be used to allow copyrighted materials to be shared freely.
+**Action plan:** I will practice tracing algorithms manually using a table or written steps. For more complicated algorithms, I will record the value of important variables after each step.
 
-Skill 5.A: Explain how computing systems work.
+---
 
--
+## Skill 4.B — Determine the Result of Code Segments
+**Questions missed: 1**
 
-Grades in a computer science course are based on total points earned on a midterm exam and a final exam. The teacher provides a way for students to improve their course grades if they receive high scores on the final exam: if a student’s final exam score is greater than the student’s midterm exam score, the final exam score replaces the midterm exam score in the calculation of total points.
+I missed 1 question involving determining the result of a code segment. This means I generally understand how code works, but I may have made an error when tracing a specific piece of code.
 
-The table below shows two students’ scores on the midterm and final exams and the calculated total points each student earns.
+These questions require careful attention to things like conditionals, loops, variable changes, operators, and the order in which statements execute.
 
-A table is shown with 4 columns and 3 rows. The first row of the table contains the column headers, from left to right, Student Name, Midterm Exam Score, Final Exam Score, Total Points Calculation. The table is as follows: Khalil, 90, 80, 90 plus 80 equals 170 Josefina, 70, 90, 90 plus 90 equals 180
+### What I need to improve
+I should avoid assuming what the code will do based on its overall appearance. Instead, I should trace the code line by line.
 
-Khalil does better on the midterm exam than on the final exam, so his original midterm and final exam scores are added to compute his total points.
-Josefina does better on the final exam than on the midterm exam, so her final exam score replaces her midterm exam score in the total points calculation.
-A programmer is writing a procedure to calculate a student’s final grade in the course using the score replacement policy described. The student’s exam scores are stored in the variables One word, midterm Exam and One word, final Exam. The procedure Max, open parenthesis, a comma b returns the larger of a and b.
+For example, I should keep track of:
 
-Which of the following could be used in the procedure to calculate a student’s total points earned in the course and store the result in the variable One word, adjusted Total ?
-A
-One word, adjusted Total, left arrow, Max, open parenthesis, one word midterm Exam, comma, one word final Exam, close parenthesis
-B
-One word, adjusted Total, left arrow, Max, open parenthesis, one word midterm Exam, comma, one word final Exam, close parenthesis, plus one word final Exam
-C
-One word, adjusted Total, left arrow, Max, open parenthesis, one word midterm Exam, comma, one word final Exam, close parenthesis, plus one word midterm Exam
-D
-One word, adjusted Total, left arrow, 2 times Max, open parenthesis, one word midterm Exam, comma, one word final Exam, close parenthesis
-Answer A
-This option is incorrect. This expression assigns only one score to One word, adjusted Total.
+1. The initial values of variables.
+2. Which condition is being evaluated.
+3. Which branch of a conditional executes.
+4. How loops change variables.
+5. What the final output will be.
 
-Skill 2.B: Implement and apply an algorithm.
+### Retrospective
+Because I only missed one question in this skill, I don't think this is a major weakness. However, it shows that I should be more precise when tracing code rather than relying on intuition.
 
--
+**Action plan:** I will practice short code-tracing problems and write down variable values as they change.
 
-Internet protocol version 4 (IPv4) represents each IP address as a 32-bit binary number. Internet protocol version 6 (IPv6) represents each IP address as a 128-bit binary number.
-Which of the following best describes the result of using 128-bit addresses instead of 32-bit addresses?
-A
-4 times as many addresses are available.
-B
-96 times as many addresses are available.
-C
-2 to the fourth power times as many addresses are available.
-D
-2 raised to the ninety sixth power times as many addresses are available.
-Answer A
-This option is incorrect. IPv6 has 2 raised to the ninety sixth power times as many possible addresses as IPv4.
+---
 
-Skill 3.C: Explain how abstraction manages complexity.
+## Skill 3.C — Explain How Abstraction Manages Complexity
+**Questions missed: 1**
 
--
+I missed 1 question involving abstraction. This suggests that I may understand the general idea of abstraction but need to be more precise about **why abstraction is useful**.
 
-An online retailer uses an algorithm to sort a list of n items by price. The table below shows the approximate number of steps the algorithm takes to sort lists of different sizes.
+Abstraction allows programmers to hide unnecessary implementation details and focus on the important features of a system. This helps manage complexity because programmers can use a function, procedure, library, or other abstraction without needing to understand every detail of how it works internally.
 
-A table is shown with 2 columns and 7 rows. The first row of the table contains the column headers, from left to right, Number of Items, Number of Steps. The table is as follows: 10, 100 20, 400 thirty, 900 forty, 1,600 fifty, 2,500 sixty, 3,600
+### What I need to improve
+I should remember that abstraction is not simply about "hiding code." Its purpose is to allow a programmer to work with a system at a higher level without needing to deal with every underlying detail.
 
-Based on the values in the table, which of the following best characterizes the algorithm for very large values of n ?
-A
-The algorithm runs in reasonable time.
-B
-The algorithm runs, but not in reasonable time.
-C
-The algorithm attempts to solve an undecidable problem.
-D
-The algorithm attempts to find an approximate solution whenever it fails to find an exact solution.
-Answer B
-This option is incorrect. The number of steps of the algorithm is a polynomial, so the algorithm runs in reasonable time.
+### Retrospective
+I may have confused abstraction with another programming concept or selected an answer that described what abstraction does without explaining **how it reduces complexity**.
 
-Skill 1.D: Evaluate solution options.
+**Action plan:** I will practice identifying examples of abstraction and explaining exactly what details are being hidden and how that makes a program easier to develop or understand.
+
+---
+
+# Overall Reflection
+
+My score of **57/66 (about 86%)** shows that I have a solid understanding of the material overall. I did not struggle equally with every skill. Instead, my mistakes were concentrated in a few areas.
+
+| Skill | Questions Missed | Priority |
+|---|---:|---|
+| **1.D — Design and evaluate computational solutions** | **4** |  Highest |
+| **5.A — Explain how computing systems work** | **2** |  High |
+| **2.B — Implement and apply an algorithm** | **1** |  Moderate |
+| **4.B — Determine the result of code segments** | **1** |  Moderate |
+| **3.C — Explain how abstraction manages complexity** | **1** |  Moderate |
+| **Total** | **9** | |
+
+The biggest takeaway from this quiz is that **Skill 1.D should be my main focus**. I missed almost half of all my incorrect questions in that one skill. Rather than simply doing more questions randomly, I should specifically practice evaluating computational solutions and thinking about whether a solution meets a particular purpose, requirement, or constraint.
+
+My next priority should be **Skill 5.A**, followed by reviewing the three skills where I only missed one question each.
+
+Overall, I am happy with my performance. The **57/66** score shows that I already have a strong foundation, and the mistakes give me a clear idea of what to focus on before the next assessment.
